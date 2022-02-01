@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+
+
+body {
+    color: rgb(0, 0, 0);
+
+}
+
+a.acolor {
+    color: #07f81b;
+        }
+
+
+h4 {
+    font-family: 'Lato', sans-serif;
+    font-size: 28px;
+    color: #b01b30;  
+    font-weight: bold;
+    text-align: center;
+}
+
+
+h6.black {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    
+    color: #000000;  
+    font-weight: bold;
+    text-align: center;
+}
+
+h4.news-red {
+    font-family: 'Lato', sans-serif;
+    color: #b01b30;  
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+
+h4.left {
+    font-family: 'Lato', sans-serif;
+    font-size: 28px;
+    color: #b01b30;  
+    font-weight: bold;
+    text-align: left;
+}
+
+
+h4.digits {
+    font-family: 'Lato', sans-serif;
+    font-size: 29px;
+    color: #ffffff;  
+    
+    font-weight: 900;
+    
+}
+
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    text-align: justify;
+
+}
+
+p.center {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    text-align: center !important;
+}
+
+p.center-black {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    text-align: center !important;
+    color: #000000; 
+
+}
+
+
+
+hr.new-red {
+    border: 1px solid #b01b30;
+}
+
+
+.Space {
+    background-color: #d1dfe4;
+    color: #000000;
+    text-align: center;
+    font-size: 12px;
+    padding: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+
+
+
+
+
+#posición-absoluta {
+    position: absolute;
+    top: -5px;
+    width: 230px;
+    padding: 5px;
+    margin-left: 30px;
+    font-family: 'Lato', sans-serif;
+}
+
+#texto-absoluto {
+    padding: 5px;
+    background-color: #e2131dcb;
+    color: white;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    text-align: center;
+    padding-bottom: 5px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+._1container {
+    position: relative;
+}
+._1center {
+    position: absolute;
+    /*top: 55%;*/
+    /*top:250px;*/
+    /*margin-top: 380px;*/
+    /*left: 300px;*/
+    top: 300px;
+    margin-left: 150px;
+    width: 550px;
+    text-align: center;
+    font-size: 18px;
+    background-color: #e2131dbb;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    font-family: 'Lato', sans-serif;
+    padding: 5px;
+}
+._1_1center {
+    display: none;
+    position: absolute;
+    
+    top: 340px;
+    margin-left: 370px;
+    width: 150px;
+   
+
+    text-align: center;
+    font-size: 18px;
+    background-color: #e2131dbb;
+    
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    font-family: 'Lato', sans-serif;
+    padding: 5px;
+}
+._1_2center {
+    display: none;
+    position: absolute;
+    top: 375px;
+    margin-left: 370px;
+    width: 150px;
+    text-align: center;
+    font-size: 18px;
+    background-color: #e2131dbb;
+    
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    font-family: 'Lato', sans-serif;
+    padding: 5px;
+}
+._1_3center {
+    display: none;
+    position: absolute;
+    top: 410px;
+    margin-left: 370px;
+    width: 150px;
+    text-align: center;
+    font-size: 18px;
+    background-color: #e2131dbb;
+    
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    font-family: 'Lato', sans-serif;
+    padding: 5px;
+}
+
+
+
+
+
+/*  img._1center { 
+	width: 100%;
+	height: auto;
+	
+	opacity: 0.3;
+  }*/
+
+  
+
+
+  /* Cotizacion.blade */ 
+
+
+
+  #price_taxes {    color: white;   background-color: #cc3139;
+                    width: initial;
+                    padding: 6px;
+                    text-align: center;
+                    border-radius: 5px;
+                    margin-top: 20px;
+                }
+
+
+
+     
+.room-facilities{
+	list-style: none;
+	display: inline-flex;
+	
+	margin-top: 8px;
+}
+
+.room-facilities li{
+	padding:5px;
+}
+
+.room-facilities li img{
+	width: 25px;
+}
+
+.room-facilities li a{
+	padding-left: 15px;
+	cursor: pointer;
+}
+
+.room-facilities li a:hover{
+	text-decoration: underline !important;
+}
+
+.plus-facilities{
+	
+	font-size: 14px;
+}           
+
+
+
+
+
+
+
+
+#footer .col-md-1-5 .opt-ft-ok{
+    display: block;
+    text-decoration: none;
+    width: 100%;
+    background-color: rgb(243, 132, 132);
+    color: #0c0c0c;
+    padding: 10px 4px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+
+.manota {cursor: pointer;}
+
+.nanay {cursor: none;}
+
+
